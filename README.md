@@ -11,4 +11,5 @@ Pick letter by:
 - using mouse wheel;
 - hovering over it with your mouse;
 - using arrow keys.
+
 Release key to confirm choice.
