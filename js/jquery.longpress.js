@@ -34,6 +34,7 @@
 	var popup=$('<ul class=long-press-popup />');
 
 	$(window).mousewheel(onWheel);
+	$(window).keyup(onKeyUp);
 
 	function onKeyDown(e) {
 
@@ -57,8 +58,8 @@
 		lastWhich=e.which;
 	}
 	function onKeyUp(e) {
-
 		if (ignoredKeys.indexOf(e.which)>-1) return;
+		if (activeElement==null) return;
 
 		lastWhich=null;
 		clearTimeout(timer);
@@ -138,7 +139,7 @@
 	LongPress.prototype = {
 
 		init: function () {
-			$(this.element).keydown(onKeyDown).keyup(onKeyUp);
+			$(this.element).keydown(onKeyDown);
         }
 
 	};
