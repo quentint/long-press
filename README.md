@@ -13,3 +13,20 @@ Pick letter by:
 - using arrow keys.
 
 Release key to confirm choice.
+
+# Context
+
+I wrote this plugin because I wanted to be able to insert rare characters as easily as on Android or iOS.
+I learned pretty quickly after doing it that Moutain Lion already offers such a feature. This is called reinventing the wheel...
+
+# Files
+
+The most insteresting file in the repository is `js/jquery.longpress.js`. Other stuff is mainly for demonstration purposes.
+
+# Status
+
+The plugin is still very young and could be improved/optimized and stuff.
+
+# Customization
+
+Characters suggestions can easily be edited in `js/jquery.longpress.js`.
