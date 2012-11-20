@@ -2,7 +2,9 @@
 
 Long Press is a jQuery plugin to ease the writing of accented or rare characters.
 
-# Usage
+# Demo & Usage
+
+A demo can be seen here: http://toki-woki.net/lab/long-press/
 
 Focus a form field and hold key to access alternate characters.
 Try ‘a’, ‘e’, ‘u’, ‘i’, ‘o’ or ‘$’ for example.
