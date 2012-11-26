@@ -2,6 +2,7 @@
  *  Project: Long Press
  *  Description: Pops a list of alternate characters when a key is long-pressed
  *  Author: Quentin Thiaucourt, http://toki-woki.net
+ *	Licence: MIT License http://opensource.org/licenses/mit-license.php
  */
 
 ;(function ($, window, undefined) {
