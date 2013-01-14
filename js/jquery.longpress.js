@@ -120,10 +120,7 @@
 		lastWhich=null;
 		clearTimeout(timer);
 		timer=null;
-		if (selectedCharIndex>-1) {
-			updateChar();
-			selectedCharIndex=-1;
-		}
+
 		hidePopup();
 	}
 	function onTimer() {
@@ -170,6 +167,7 @@
 		$('.long-press-letter.selected').removeClass('selected');
 		$('.long-press-letter').eq(i).addClass('selected');
 		selectedCharIndex=i;
+		updateChar();
 	}
 
 	function updateChar() {
