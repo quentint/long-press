@@ -124,7 +124,7 @@
 		hidePopup();
 	}
 	function onTimer() {
-		var typedChar=$(activeElement).attr('value').split('')[getCaretPosition(activeElement)-1];
+		var typedChar=$(activeElement).val().split('')[getCaretPosition(activeElement)-1];
 
 		if (moreChars[typedChar]) {
 			showPopup((moreChars[typedChar]));
@@ -173,9 +173,9 @@
 	function updateChar() {
 		var newChar=$('.long-press-letter.selected').text();
 		var pos=getCaretPosition(activeElement);
-		var arVal=$(activeElement).attr('value').split('');
+		var arVal=$(activeElement).val().split('');
 		arVal[pos-1]=newChar;
-		$(activeElement).attr('value', arVal.join(''));
+		$(activeElement).val(arVal.join(''));
 		setCaretPosition(activeElement, pos);
 	}
 
