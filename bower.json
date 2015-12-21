@@ -1,0 +1,25 @@
+{
+  "name": "long-press",
+  "version": "0.0.2",
+  "homepage": "https://github.com/quentint/long-press",
+  "description": "Long Press is a jQuery plugin to ease the writing of accented or rare characters.",
+  "main": "js/jquery.longpress.js",
+  "dependencies": {
+    "jquery": ">1.9.0"
+  },
+  "keywords": [
+    "characters",
+    "accented"
+  ],
+  "authors": [
+    "quentint"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests",
+    "node_modules",
+    "bower_components"
+  ]
+}
