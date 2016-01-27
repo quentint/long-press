@@ -2,7 +2,7 @@
   "name": "long-press",
   "version": "0.0.2",
   "description": "Long Press is a jQuery plugin to ease the writing of accented or rare characters.",
-  "main": "js/jquery.longpress.js",
+  "main": ["js/jquery.longpress.js", "js/app.js", "js/jquery.mousewheel.js","js/plugins.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

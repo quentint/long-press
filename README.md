@@ -2,6 +2,16 @@
 
 Long Press is a jQuery plugin to ease the writing of accented or rare characters.
 
+# Installation
+
+You can install using bower as well as npm
+
+- Install using bower
+  ` bower install long-press `
+
+- Install using npm
+  `npm install long-press`
+
 ## Demo & Usage
 
 A demo can be seen here: http://toki-woki.net/lab/long-press/
