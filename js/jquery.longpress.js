@@ -3,9 +3,18 @@
  *  Description: Pops a list of alternate characters when a key is long-pressed
  *  Author: Quentin Thiaucourt, http://toki-woki.net
  *	Licence: MIT License http://opensource.org/licenses/mit-license.php
- */
-
-;(function ($, window, undefined) {
+ */;(function (factory) {
+	if (typeof define === "function" && define.amd) {
+		// AMD. Register as an anonymous module depending on jQuery.
+		define(["jquery"], factory , window);
+	} else if (typeof exports === "object") {
+		// Node/CommonJS
+		module.exports = factory(require("jquery"),window);
+	} else {
+		// No AMD. Register plugin with global jQuery object.
+		factory(jQuery,window);
+	}
+})(function ($, window, undefined) {
     
     var pluginName = 'longPress',
         document = window.document,
@@ -206,4 +215,4 @@
         });
     };
 
-}(jQuery, window));
+});
